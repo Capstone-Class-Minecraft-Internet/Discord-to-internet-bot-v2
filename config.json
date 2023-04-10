@@ -1,0 +1,5 @@
+{
+    "clientId": process.argv[2],
+	"guildId": process.argv[3],
+	"token": process.argv[4]
+}
