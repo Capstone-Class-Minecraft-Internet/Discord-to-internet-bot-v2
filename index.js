@@ -3,6 +3,9 @@ const path = require('node:path');
 //-------------------- Params
 botChannelId = process.argv[0];
 botRelayChannelId = process.argv[1];
+clientId = process.argv[2];
+guildId = process.argv[3];
+token = process.argv[4];
 
 //------------------- End of Params
 
