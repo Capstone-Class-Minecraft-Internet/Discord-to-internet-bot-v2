@@ -1,11 +1,11 @@
 const fs = require('node:fs');
 const path = require('node:path');
 //-------------------- Params
-botChannelId = process.argv[0];
-botRelayChannelId = process.argv[1];
-clientId = process.argv[2];
-guildId = process.argv[3];
-token = process.argv[4];
+botChannelId = process.argv[2];
+botRelayChannelId = process.argv[3];
+clientId = process.argv[4];
+guildId = process.argv[5];
+token = process.argv[6];
 
 //------------------- End of Params
 
@@ -153,7 +153,7 @@ client.on("messageCreate", async (message) =>{//This command runs every time a m
 
 
 // Log in to Discord with your client's token
-console.log(process.argv)
+//console.log(process.argv)
 console.log(token);
 client.login(token);
 
