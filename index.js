@@ -153,6 +153,6 @@ client.on("messageCreate", async (message) =>{//This command runs every time a m
 
 
 // Log in to Discord with your client's token
-console.log(process.argv[5]);
-client.login(process.argv[5]);
+console.log(token);
+client.login(token);
 
